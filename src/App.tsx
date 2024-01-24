@@ -4,7 +4,7 @@ import Main from "./components/Main";
 function App() {
   const [text, setText] = useState<string>("");
   const [isVaild, setValid] = useState<boolean>(true);
-  const [isSubscribed, setSubscribed] = useState<boolean>(true);
+  const [isSubscribed, setSubscribed] = useState<boolean>(false);
 
   return (
     <div className="App">
