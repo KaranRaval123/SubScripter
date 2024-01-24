@@ -1,0 +1,36 @@
+.card {
+  background-color: white;
+  border-radius: 30px;
+  width: 25%;
+  padding: 50px;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  align-items: left;
+  font-family: MyRoboto-R;
+}
+.card h1 {
+  font-family: MyRoboto-B;
+  font-size: 3.5rem;
+  line-height: 55px;
+  letter-spacing: -1px;
+  color: hsl(234, 29%, 20%);
+  margin-bottom: 8px;
+}
+.card p {
+  font-family: inherit;
+  font-size: 1rem;
+}
+.card .btn {
+  font-size: 1rem;
+  padding: 15px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-family: MyRoboto-B;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
